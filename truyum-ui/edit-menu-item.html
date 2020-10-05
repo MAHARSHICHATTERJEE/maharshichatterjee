@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>edit-menu-item</title>
+        <link rel="stylesheet" href="./style/style.css">
+       <script type="text/javascript" src="./js/script.js"></script>
+             
+    </head>
+    <body>
+         <header >
+        <p id="logoname">truYum</p>
+        <img src="./images/truyum-logo-light.png">
+   <a class="links" href="menu-item-list-admin.html">Menu</a>
+        </header>
+    <div id="content">
+      
+    <h1>Edit Menu Items</h1>
+        <form name="menu-items" action="edit-menu-item-status.html">
+        <label for name="title">Name</label><br/>
+        <input type ="text" name="title" id="title"><br/>
+            <table>
+                <tr>
+                    <th> <label for name="price">Price(Rs.)</label></th>
+                    <th>  <label for="active">Active</label></th>
+        <th>   <label for="dateofLaunch">Date of Launch</label></th> 
+               <th>  <label for="category">Category</label><th/> 
+                </tr>
+                <tr>
+                <td> <input type ="text" name="price" id="price"></td>
+                    
+                 
+                <td>  <input type="radio" placeholder="Yes" name="inStock" id="active">yes
+        <input type="radio" placeholder="No" name="inStock" id="active">no</td>
+                    <td><input type ="text" name="dateofLaunch" id="dateofLaunch" pattern="\d{1,2}/\d{1,2}/\d{4}"></td>
+                                                                                            
+                             <td> <select id="category">
+            <option value="0"> select</option>
+        <option value="1">Starters</option>
+        <option value="2">Main Course</option>
+        <option value="3">Desert</option>
+        <option value="4">Drinks</option>
+                                 </select></td>
+                </tr>
+            </table>
+              <label for="Free delivery">Free delivery</label> 
+                                                                  
+                       <input type="checkbox" name="freeDelivery" placeholder="freedelivery"><br/>                         
+                                                                                        
+      
+        <button type="submit" name="submit" class="button" id="Save" onclick="return checkTheForm()" >Save</button>
+       
+            
+        </form>                              
+                                              
+        </div>
+         <div id="footer">&copy;2019</div>
+                    </body>
+</html>
+                                              
+                                              
+                                              
+                                              
+                                              
+                                
+                                              
+                                              
+                                              
+                                              
+      

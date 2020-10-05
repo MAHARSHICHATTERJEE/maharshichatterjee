@@ -1,0 +1,67 @@
+#content{
+     padding:200px;
+}
+        #footer{
+             background-color: #a6acb3;
+            text-align: left;
+            height:80px;
+            font-size: 20px;
+        }
+       th{width:350px;
+            text-align:left;
+        }          
+td{
+            width:350px;
+        }
+                
+ 
+header{
+    background-color: #253db8;
+    height: 80px;
+   
+}
+img{
+    width:60px;
+    height: 60px;
+    float:left
+        
+}
+#logoname{
+    color:#ffffff;
+    float:left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.button{
+margin-top: 30px;
+  background-color:#1a41db;
+height:50px;
+width:100px;
+color:#ffffff;}
+#title{
+    width:1000px;
+}
+#para
+{color:#2eb82e;
+font-weight:bold}
+#paraone
+{color:#2eb82e;
+font-weight:bold;
+text-align: center;}
+#linkone{color: #253db8;
+    
+}
+.linkscart{
+            color:#ffffff;
+       float: right;
+       margin-right:40px;
+       margin-top:40px;
+       font-size: 100px:
+        }
+  .links{
+            color:#ffffff;
+       float: right;
+       margin-right:40px;
+       margin-top:40px;
+       font-size: 100px:
+        }
